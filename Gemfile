@@ -12,7 +12,9 @@ gem "rake", ">= 11"
 gem "simplecov", git: "https://github.com/simplecov-ruby/simplecov"
 
 group :test do
+  gem "aruba"
   gem "minitest"
+  gem "rspec"
 end
 
 group :development do
@@ -20,6 +22,7 @@ group :development do
   gem "rubocop-minitest"
   gem "rubocop-performance"
   gem "rubocop-rake"
+  gem "rubocop-rspec"
   gem "sprockets"
   gem "uglifier"
   gem "yui-compressor"

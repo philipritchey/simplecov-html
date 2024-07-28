@@ -24,3 +24,6 @@ coverage
 rdoc
 pkg
 .sass-cache
+
+## TEMPORARY
+tmp/
